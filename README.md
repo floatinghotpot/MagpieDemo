@@ -113,8 +113,10 @@ void HelloWorld::onClickTestButton(CCObject *pSender, TouchEventType type)
 
 Android
 
-![Screenshot](android_admob.jpg)
+![Screenshot](docs/android_admob.jpg)
+![Screenshot](docs/android_admob_full.jpg)
 
 iPad
 
-![Screenshot](ipad_admob.jpg)
+![Screenshot](docs/ipad_admob.jpg)
+![Screenshot](docs/ipad_admob_full.jpg)
