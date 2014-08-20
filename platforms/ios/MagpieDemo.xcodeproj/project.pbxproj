@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		15A3D8FF1682F7D5002FB0C5 /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88B1682F7D5002FB0C5 /* b2BroadPhase.cpp */; };
 		15A3D9001682F7D5002FB0C5 /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88D1682F7D5002FB0C5 /* b2CollideCircle.cpp */; };
@@ -157,24 +158,20 @@
 		1A9CE8781765A12C000E3062 /* AssetsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A9CE8221765A12C000E3062 /* AssetsManager.cpp */; };
 		1AB87035175E0A84005D39BF /* WebSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB87033175E0A84005D39BF /* WebSocket.cpp */; };
 		1AB8703C175E0A92005D39BF /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB8703B175E0A92005D39BF /* libwebsockets.a */; };
-		AF3D7663282B487BA1E7CD68 /* MagpieBridgeiOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3646A8B42AC846778ACA2DCC /* MagpieBridgeiOS.mm */; };
 		1AC3624916D4A1E8000847F2 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3624316D4A1E8000847F2 /* AppController.mm */; };
 		1AC3624B16D4A1E8000847F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3624516D4A1E8000847F2 /* main.m */; };
 		1ACB3244164770DE00914215 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACB3243164770DE00914215 /* libcurl.a */; };
-		3E88DE49F1A6471EBEAECD9F /* Magpie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 419126C6EA10455090D6DAA9 /* Magpie.cpp */; };
 		1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */; };
 		1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */; };
 		1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B916D35E4900DB1158 /* CloseNormal.png */; };
 		1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */; };
 		1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */; };
 		1AFCDA8216D4A25900906EA6 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCDA8116D4A25900906EA6 /* RootViewController.mm */; };
-		5F2D25F4455745BDAE7EA97D /* Magpie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9278794897E04622A16011CF /* Magpie.framework */; };
-		E90A0C8B621D402BAA2353FD /* Cordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DCE42D83D3443188DF9B013 /* Cordova.framework */; };
-		F1E12316E57744249179D2C9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3416256367E439EB1C669F9 /* AssetsLibrary.framework */; };
-		7144AFA4152E4C44B52B410E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997E01F0C2854134B799348D /* MobileCoreServices.framework */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		34A5E65B5FBE463684544681 /* CDVAdMob.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D3501394049CF9EC9516F /* CDVAdMob.m */; };
+		377152B5BBAB47E8A06717DE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103E2B8EA9CD4BCBB790BA47 /* SystemConfiguration.framework */; };
 		379BB99517F03F3700829B88 /* CCActionFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */; };
 		379BB99617F03F3700829B88 /* CCActionFrameEasing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */; };
 		379BB99717F03F3700829B88 /* CCActionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB90017F03F3700829B88 /* CCActionManager.cpp */; };
@@ -237,12 +234,20 @@
 		379BB9D217F03F3700829B88 /* sconscript in Resources */ = {isa = PBXBuildFile; fileRef = 379BB98D17F03F3700829B88 /* sconscript */; };
 		379BB9D317F03F3700829B88 /* GUIReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB99117F03F3700829B88 /* GUIReader.cpp */; };
 		379BB9D417F03F3700829B88 /* SceneReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB99317F03F3700829B88 /* SceneReader.cpp */; };
+		3AB104144AC34535A44D5BA0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70183108423F4DBDB19FF7D7 /* StoreKit.framework */; };
+		3E88DE49F1A6471EBEAECD9F /* Magpie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 419126C6EA10455090D6DAA9 /* Magpie.cpp */; };
 		4650F8E02C1A4E48BE50B8DF /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 46B8E4D51DBE40B5A3BE212E /* config.xml */; };
+		5F2D25F4455745BDAE7EA97D /* Magpie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9278794897E04622A16011CF /* Magpie.framework */; };
+		7144AFA4152E4C44B52B410E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997E01F0C2854134B799348D /* MobileCoreServices.framework */; };
 		7855E0E1153FEF240059DD9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7855E0DF153FEF240059DD9A /* Default.png */; };
+		96398791C9A6426EB3E0E060 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF9AF7D01B34A8E84EA931A /* MessageUI.framework */; };
+		AF3D7663282B487BA1E7CD68 /* MagpieBridgeiOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3646A8B42AC846778ACA2DCC /* MagpieBridgeiOS.mm */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
+		D395142849934C4EADB151BE /* AdMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB085090E464CC5BFD7D5E8 /* AdMobAds.framework */; };
+		D3D84A7ED37741C09E3D5089 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAED5FF1027542A7B1237806 /* AdSupport.framework */; };
 		D41A0AD1160F154A004552AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D41A0AD0160F154A004552AE /* Default-568h@2x.png */; };
 		D446FD6E16102124000ADA7B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D446FD6D16102124000ADA7B /* Default@2x.png */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
@@ -252,13 +257,10 @@
 		D4EF949C15BD2D8E00D803EB /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EF949B15BD2D8E00D803EB /* Icon-114.png */; };
 		D4EF949E15BD2D9600D803EB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EF949D15BD2D9600D803EB /* Icon-72.png */; };
 		D4EF94A015BD2D9800D803EB /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EF949F15BD2D9800D803EB /* Icon-144.png */; };
+		E2DDC86719A5168E004C467B /* img in Resources */ = {isa = PBXBuildFile; fileRef = E2DDC86619A5168E004C467B /* img */; };
+		E90A0C8B621D402BAA2353FD /* Cordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DCE42D83D3443188DF9B013 /* Cordova.framework */; };
 		ED35BF4C183230FC002A0750 /* UIListViewEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED35BF4A183230FC002A0750 /* UIListViewEx.cpp */; };
-		34A5E65B5FBE463684544681 /* CDVAdMob.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D3501394049CF9EC9516F /* CDVAdMob.m */; };
-		D395142849934C4EADB151BE /* AdMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB085090E464CC5BFD7D5E8 /* AdMobAds.framework */; };
-		3AB104144AC34535A44D5BA0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70183108423F4DBDB19FF7D7 /* StoreKit.framework */; };
-		D3D84A7ED37741C09E3D5089 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAED5FF1027542A7B1237806 /* AdSupport.framework */; };
-		96398791C9A6426EB3E0E060 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF9AF7D01B34A8E84EA931A /* MessageUI.framework */; };
-		377152B5BBAB47E8A06717DE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103E2B8EA9CD4BCBB790BA47 /* SystemConfiguration.framework */; };
+		F1E12316E57744249179D2C9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3416256367E439EB1C669F9 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -279,6 +281,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DF9AF7D01B34A8E84EA931A /* MessageUI.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		103E2B8EA9CD4BCBB790BA47 /* SystemConfiguration.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		15A3D87E1682F7B3002FB0C5 /* cocos2dx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2dx.xcodeproj; path = ../../../cocos2dx/proj.ios/cocos2dx.xcodeproj; sourceTree = "<group>"; };
 		15A3D8891682F7D5002FB0C5 /* Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2D.h; sourceTree = "<group>"; };
 		15A3D88B1682F7D5002FB0C5 /* b2BroadPhase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2BroadPhase.cpp; sourceTree = "<group>"; };
@@ -591,14 +595,10 @@
 		1AB87039175E0A92005D39BF /* libwebsockets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libwebsockets.h; sourceTree = "<group>"; };
 		1AB8703B175E0A92005D39BF /* libwebsockets.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebsockets.a; sourceTree = "<group>"; };
 		1AC3624216D4A1E8000847F2 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = SOURCE_ROOT; };
-		A1D225272BBE489E8E44B410 /* MagpieBridgeiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagpieBridgeiOS.h; sourceTree = SOURCE_ROOT; };
-		3646A8B42AC846778ACA2DCC /* MagpieBridgeiOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MagpieBridgeiOS.mm; sourceTree = SOURCE_ROOT; };
 		1AC3624316D4A1E8000847F2 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = SOURCE_ROOT; };
 		1AC3624516D4A1E8000847F2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
 		1AC3624616D4A1E8000847F2 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = SOURCE_ROOT; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
-		665C1621D9E94D3FB5C580F2 /* Magpie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Magpie.h; path = ../Classes/Magpie.h; sourceTree = "<group>"; };
-		419126C6EA10455090D6DAA9 /* Magpie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Magpie.cpp; path = ../Classes/Magpie.cpp; sourceTree = "<group>"; };
 		1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		1AFAF8B416D35DE700DB1158 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../Classes/AppDelegate.h; sourceTree = "<group>"; };
 		1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = ../Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
@@ -608,14 +608,11 @@
 		1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
 		1AFCDA8016D4A25900906EA6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = SOURCE_ROOT; };
 		1AFCDA8116D4A25900906EA6 /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = SOURCE_ROOT; };
-		9278794897E04622A16011CF /* Magpie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Magpie.framework; sourceTree = SOURCE_ROOT; };
-		6DCE42D83D3443188DF9B013 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cordova.framework; sourceTree = SOURCE_ROOT; };
-		F3416256367E439EB1C669F9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		997E01F0C2854134B799348D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* MagpieDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagpieDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3646A8B42AC846778ACA2DCC /* MagpieBridgeiOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MagpieBridgeiOS.mm; sourceTree = SOURCE_ROOT; };
 		379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrame.cpp; sourceTree = "<group>"; };
 		379BB8FD17F03F3700829B88 /* CCActionFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionFrame.h; sourceTree = "<group>"; };
 		379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrameEasing.cpp; sourceTree = "<group>"; };
@@ -746,8 +743,17 @@
 		379BB99217F03F3700829B88 /* GUIReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIReader.h; sourceTree = "<group>"; };
 		379BB99317F03F3700829B88 /* SceneReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneReader.cpp; sourceTree = "<group>"; };
 		379BB99417F03F3700829B88 /* SceneReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneReader.h; sourceTree = "<group>"; };
+		419126C6EA10455090D6DAA9 /* Magpie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Magpie.cpp; path = ../Classes/Magpie.cpp; sourceTree = "<group>"; };
 		46B8E4D51DBE40B5A3BE212E /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = MagpieDemo/config.xml; sourceTree = SOURCE_ROOT; };
+		665C1621D9E94D3FB5C580F2 /* Magpie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Magpie.h; path = ../Classes/Magpie.h; sourceTree = "<group>"; };
+		6DCE42D83D3443188DF9B013 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cordova.framework; sourceTree = SOURCE_ROOT; };
+		70183108423F4DBDB19FF7D7 /* StoreKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		77BA8687B76B4F1FB031F9CB /* CDVAdMob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVAdMob.h; path = com.google.cordova.admob/CDVAdMob.h; sourceTree = "<group>"; };
 		7855E0DF153FEF240059DD9A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		9278794897E04622A16011CF /* Magpie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Magpie.framework; sourceTree = SOURCE_ROOT; };
+		997E01F0C2854134B799348D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A1D225272BBE489E8E44B410 /* MagpieBridgeiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagpieBridgeiOS.h; sourceTree = SOURCE_ROOT; };
+		BAED5FF1027542A7B1237806 /* AdSupport.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -761,16 +767,13 @@
 		D4EF949B15BD2D8E00D803EB /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-114.png"; path = "../ios/Icon-114.png"; sourceTree = "<group>"; };
 		D4EF949D15BD2D9600D803EB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../ios/Icon-72.png"; sourceTree = "<group>"; };
 		D4EF949F15BD2D9800D803EB /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-144.png"; path = "../ios/Icon-144.png"; sourceTree = "<group>"; };
-		D4F9F37B12E54555005CA6D2 /* "MagpieDemo/MagpieDemo-Info.plist" */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MagpieDemo/MagpieDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D4F9F37B12E54555005CA6D2 /* MagpieDemo/MagpieDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MagpieDemo/MagpieDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E20D3501394049CF9EC9516F /* CDVAdMob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVAdMob.m; path = com.google.cordova.admob/CDVAdMob.m; sourceTree = "<group>"; };
+		E2DDC86619A5168E004C467B /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
 		ED35BF4A183230FC002A0750 /* UIListViewEx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIListViewEx.cpp; sourceTree = "<group>"; };
 		ED35BF4B183230FC002A0750 /* UIListViewEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIListViewEx.h; sourceTree = "<group>"; };
-		E20D3501394049CF9EC9516F /* CDVAdMob.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVAdMob.m"; path = "com.google.cordova.admob/CDVAdMob.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		77BA8687B76B4F1FB031F9CB /* CDVAdMob.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVAdMob.h"; path = "com.google.cordova.admob/CDVAdMob.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		FAB085090E464CC5BFD7D5E8 /* AdMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AdMobAds.framework"; path = "MagpieDemo/Plugins/com.google.cordova.admob/AdMobAds.framework"; sourceTree = "<group>"; };
-		70183108423F4DBDB19FF7D7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "StoreKit.framework"; path = "System/Library/Frameworks/StoreKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		BAED5FF1027542A7B1237806 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AdSupport.framework"; path = "System/Library/Frameworks/AdSupport.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		0DF9AF7D01B34A8E84EA931A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		103E2B8EA9CD4BCBB790BA47 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		F3416256367E439EB1C669F9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		FAB085090E464CC5BFD7D5E8 /* AdMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdMobAds.framework; path = MagpieDemo/Plugins/com.google.cordova.admob/AdMobAds.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -813,7 +816,7 @@
 				A1D225272BBE489E8E44B410 /* MagpieBridgeiOS.h */,
 				3646A8B42AC846778ACA2DCC /* MagpieBridgeiOS.mm */,
 				1AC3624316D4A1E8000847F2 /* AppController.mm */,
-				D4F9F37B12E54555005CA6D2 /* "MagpieDemo/MagpieDemo-Info.plist" */,
+				D4F9F37B12E54555005CA6D2 /* MagpieDemo/MagpieDemo-Info.plist */,
 				1AC3624516D4A1E8000847F2 /* main.m */,
 				1AC3624616D4A1E8000847F2 /* Prefix.pch */,
 				1AFCDA8016D4A25900906EA6 /* RootViewController.h */,
@@ -821,6 +824,16 @@
 			);
 			name = ios;
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		1372C555943C4262819026D0 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				E20D3501394049CF9EC9516F /* CDVAdMob.m */,
+				77BA8687B76B4F1FB031F9CB /* CDVAdMob.h */,
+			);
+			name = Plugins;
+			path = MagpieDemo/Plugins;
 			sourceTree = "<group>";
 		};
 		15A3D87F1682F7B3002FB0C5 /* Products */ = {
@@ -1297,16 +1310,6 @@
 			path = ios;
 			sourceTree = "<group>";
 		};
-		1372C555943C4262819026D0 /* Plugins */ = {
-			isa = PBXGroup;
-			children = (
-				E20D3501394049CF9EC9516F /* CDVAdMob.m */,
-				77BA8687B76B4F1FB031F9CB /* CDVAdMob.h */,
-			);
-			name = Plugins;
-			path = "MagpieDemo/Plugins";
-			sourceTree = "<group>";
-		};
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -1770,6 +1773,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E2DDC86619A5168E004C467B /* img */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
 				1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */,
 				1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */,
@@ -1855,6 +1859,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2DDC86719A5168E004C467B /* img in Resources */,
 				4650F8E02C1A4E48BE50B8DF /* config.xml in Resources */,
 				7855E0E1153FEF240059DD9A /* Default.png in Resources */,
 				D4EF949A15BD2D8B00D803EB /* Icon-57.png in Resources */,
@@ -2113,15 +2118,15 @@
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"\"MagpieDemo/Plugins/com.google.cordova.admob\"",
 				);
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2173,6 +2178,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"MagpieDemo/Plugins/com.google.cordova.admob\"",
+				);
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2211,10 +2220,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"MagpieDemo/Plugins/com.google.cordova.admob\"",
-				);
 			};
 			name = Release;
 		};

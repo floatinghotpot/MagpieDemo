@@ -41,6 +41,7 @@ assets/
 .project
 .cproject
 local.properties
+libcocos2dcpp.so
 
 # Ignore files build by linux
 *.o
