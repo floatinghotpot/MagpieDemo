@@ -128,7 +128,7 @@ bool HelloWorld::init()
 void HelloWorld::onClickTestButton(CCObject *pSender, TouchEventType type)
 {
     if(type != TOUCH_EVENT_ENDED) return;
-    
+
 	UIButton* btn = static_cast<UIButton*> (pSender);
 	string name = btn->getName();
 	CCLOG("button '%s' touched", name.c_str());
@@ -139,13 +139,14 @@ void HelloWorld::onClickTestButton(CCObject *pSender, TouchEventType type)
 				"\"bannerId\":\"" + BANNER_ADID + "\","
 				"\"interstitialId\":\"" + INTERSTITIAL_ADID + "\","
 				"\"isTesting\":true,"
+				"\"overlap\":true,"
 				"\"autoShow\":true"
 				"}]";
 		Magpie::instance()->execute("AdMob", "setOptions", args.c_str(), NULL, NULL);
 
 	} else if(name == "createBanner") {
 		string args = "";
-		args = args + "[{\"adId\":\"" + BANNER_ADID + "\"}]";
+		args = args + "[{\"adId\":\"" + BANNER_ADID + "\",\"overlap\":true,\"autoShow\":true}]";
 		Magpie::instance()->execute("AdMob", "createBanner", args.c_str(), NULL, NULL);
 
 	} else if(name == "removeBanner") {
