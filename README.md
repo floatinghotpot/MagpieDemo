@@ -1,14 +1,12 @@
-MagpieDemo: Call Cordova Plugins in Cocos2d-X Game
-==========
+# MagpieDemo: Call Cordova Plugins in Cocos2d-X Game #
 
-Demo Project for Magpie Framework.
+This is a demo project for Magpie Framework.
 
 This Demo will show how to call Cordova AdMob Plugin from Cocos2d-X C++ code.
 
 # Required #
 
 ## IDE and Basic Tools ##
-
 - XCode v5.1 or later
 - Eclipse v4.3 R2 or later
 - Android SDK v4.4.2 (API 19)
@@ -16,31 +14,26 @@ This Demo will show how to call Cordova AdMob Plugin from Cocos2d-X C++ code.
 - git
 
 ## Cocos2d-X ##
-
 - Cocos2d-X v2.2.x
 
 > So far, only v2.2.1 tested.
 
 ## Cordova ##
-
 - Cordova v3.5.0
 
 ## Magpie ##
-
 - Magpie v1.0
 ```
 git clone https://github.com/HandyWit/magpie ~/magpie
 ```
 
 # How to Use? #
-
 ```
 cd <cocos2d-x>
 git clone https://github.com/HandyWit/MagpieDemo.git
 ```
 
 # How to Run? #
-
 iOS
 - Double-click ./MagpieDemo/platforms/ios/MagpieDemo.xcodeproj, Xcode will open the project.
 - Build (Ctrl+B)
@@ -49,7 +42,7 @@ iOS
 
 Android
 - Open Eclipse, import existing android project ./MagpieDemo/platforms/android
-- Change Android API to 4.4+
+- Change Android API to 4.4+ (required by Cordova 3.5.0)
 - Build Project
 - (connect android device)
 - Run As Android Application 
