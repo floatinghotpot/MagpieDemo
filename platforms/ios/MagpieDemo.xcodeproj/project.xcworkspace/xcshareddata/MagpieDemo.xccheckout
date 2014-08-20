@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5804A296-B92E-4744-B1FD-F496341F0173</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MagpieDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D5ACA3AF-E654-4BB3-889C-1B7FF1620997</key>
+		<string>ssh://github.com/floatinghotpot/magpiedemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/MagpieDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D5ACA3AF-E654-4BB3-889C-1B7FF1620997</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/floatinghotpot/magpiedemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D5ACA3AF-E654-4BB3-889C-1B7FF1620997</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D5ACA3AF-E654-4BB3-889C-1B7FF1620997</string>
+			<key>IDESourceControlWCCName</key>
+			<string>proj_MagpieDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
