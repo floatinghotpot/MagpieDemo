@@ -1,6 +1,6 @@
 # MagpieDemo: Call Cordova Plugins in Cocos2d-X Game #
 
-This is a demo project for Magpie Framework.
+This is a demo project for [Magpie Framework](https://github.com/HandyWit/magpie).
 
 This Demo will show how to call Cordova AdMob Plugin from Cocos2d-X C++ code.
 
